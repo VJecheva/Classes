@@ -9,3 +9,8 @@ int Rectangle::perimeter() const
 {
 	return 2 * (a + b);
 }
+
+void setB(int value)
+{
+	this->b = value;
+}
