@@ -4,7 +4,7 @@ private:
 	int a, b;
 public: 
 	Rectangle(int = 1, int = 1);
-	void setA(int);
+	void setA(int x);
 	void setB(int);
 	int getA()const;
 	int getB()const;
